@@ -33,5 +33,14 @@ $(document).ready(function () {
      height: 470px;
      padding-top: 100px;
  }
+ img.slider-img{
+     height: 400px !important;
+ }
+ .custom-product{
+     height: 470px;
+ }
+ .product-name{
+     color: gray;
+ }
 </style>
 </html>
