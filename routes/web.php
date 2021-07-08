@@ -38,3 +38,5 @@ route::get('home',function () {
     }
     return view('login');
 });
+
+Route::get('detail/{id}',[ProductController::class,'detail']);

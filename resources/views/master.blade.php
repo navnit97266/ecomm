@@ -52,5 +52,9 @@ $(document).ready(function () {
  .trending-wrapper{
      margin: 20px;
  }
+ .detail-img{
+     height: 400px;
+     width: 300px;
+ }
 </style>
 </html>
