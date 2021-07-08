@@ -42,5 +42,15 @@ $(document).ready(function () {
  .product-name{
      color: gray;
  }
+ .trending-img{
+     height: 100px;
+ }
+ .trending-items{
+     float: left;
+     width: 20%;
+ }
+ .trending-wrapper{
+     margin: 20px;
+ }
 </style>
 </html>
