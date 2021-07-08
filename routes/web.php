@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProductController;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,12 +25,13 @@ Route::post('/login',[UserController::class,'login']);
 Route::get('/',[ProductController::class,'index']);
 Route::get('/logout', function () {
     if(session()->has('user')){
-        session()->pull('user');
+        //session()->pull('user');
+        Session::forget('user');
         }
     return view('login');
 });
 
-Route::view('home','home');
+//Route::view('home','home');
 
 route::get('home',function () {
     if(session()->has('user')){
