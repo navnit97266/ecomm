@@ -10,7 +10,11 @@ class UserController extends Controller
 {
     public function login(Request $req)
     {
-
+        
+         $req->validate([
+            'email'=>'required | max:100',
+            'password'=>'required | min:5'
+        ]); 
         $user = User::where(['email'=>$req->email])->first();
       
       
