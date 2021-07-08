@@ -56,5 +56,8 @@ $(document).ready(function () {
      height: 400px;
      width: 300px;
  }
+ .search-box{
+     width: 500px !important
+ }
 </style>
 </html>
