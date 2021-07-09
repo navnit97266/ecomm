@@ -33,14 +33,15 @@ Route::get('/logout', function () {
 
 //Route::view('home','home');
 
-route::get('home',function () {
-    if(session()->has('user')){
-        return view('home');
-        
-    }
-    return view('login');
-});
+//route::get('home',function () {
+//    if(session()->has('user')){
+//        return view('home');
+//        
+//    }
+//    return view('login');
+//});
 
 Route::get('detail/{id}',[ProductController::class,'detail']);
 Route::get('/search',[ProductController::class,'search']);
 Route::post('addtocart',[ProductController::class,'addtocart']);
+Route::get('/cartlist',[ProductController::class,'cartlist']);

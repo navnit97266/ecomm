@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/xampp/htdocs/ecomm/resources/views/login.blade.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/database/seeders/ProductSeeder.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/resources/views/footer.blade.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/app/Models/Cart.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/resources/views/master.blade.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/resources/views/product.blade.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/database/migrations/2021_07_08_064830_create_products_table.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/resources/views/home.blade.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/app/Http/Controllers/UserController.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/database/migrations/2021_07_08_134327_create_cart_table.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/routes/web.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/app/Http/Controllers/ProductController.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/database/seeders/User_seeder.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/resources/views/header.blade.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/app/Http/Middleware/UserAuth.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/.env</file>
+            <file>file:/D:/xampp/htdocs/ecomm/app/Models/User.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/resources/views/detail.blade.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/resources/views/search.blade.php</file>
+            <file>file:/D:/xampp/htdocs/ecomm/app/Models/Product.php</file>
+        </group>
+    </open-files>
 </project-private>

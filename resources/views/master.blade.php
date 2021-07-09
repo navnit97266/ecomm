@@ -59,5 +59,19 @@ $(document).ready(function () {
  .search-box{
      width: 500px !important
  }
+ .cart-list-divider{
+     border-bottom: solid 1px #ccc;
+     margin-bottom: 20px;
+     padding-bottom: 20px;
+ }
+ .footer{
+    
+
+    
+ }
+ html{
+  position:relative; 
+  min-height: 100%;
+}
 </style>
 </html>
