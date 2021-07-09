@@ -64,14 +64,6 @@ $(document).ready(function () {
      margin-bottom: 20px;
      padding-bottom: 20px;
  }
- .footer{
-    
 
-    
- }
- html{
-  position:relative; 
-  min-height: 100%;
-}
 </style>
 </html>
