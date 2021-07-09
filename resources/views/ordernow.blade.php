@@ -25,16 +25,17 @@
    
 </table>
     
-  <form>
+    <form action="order" method="post">
     <div class="form-group">
+       @csrf
       <label for="address">Address:</label>
-      <textarea class="form-control"></textarea>
+      <textarea name="address" class="form-control"></textarea>
     </div>
     <div class="form-group">
       <label for="pwd">Payment Method:</label>
-      <p><input type="radio" class="" name="payment"> <span>Online Payment</span></p>
-      <p><input type="radio" class="" name="payment"> <span>EMI Payment</span></p>
-      <p><input type="radio" class="" name="payment"> <span>Payment on Delivery</span></p>
+      <p><input type="radio" class="" name="payment" value="cash"> <span>Online Payment</span></p>
+      <p><input type="radio" class="" name="payment" value="cash"> <span>EMI Payment</span></p>
+      <p><input type="radio" class="" name="payment" value="cash"> <span>Payment on Delivery</span></p>
           
     </div>
     

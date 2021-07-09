@@ -47,3 +47,4 @@ Route::post('addtocart',[ProductController::class,'addtocart']);
 Route::get('/cartlist',[ProductController::class,'cartlist']);
 Route::get('/removecart/{id}',[ProductController::class,'removeCart']);
 Route::get('/ordernow',[ProductController::class,'orderNow']);
+Route::post('/order',[ProductController::class,'order']);
