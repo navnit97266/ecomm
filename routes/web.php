@@ -45,3 +45,4 @@ Route::get('detail/{id}',[ProductController::class,'detail']);
 Route::get('/search',[ProductController::class,'search']);
 Route::post('addtocart',[ProductController::class,'addtocart']);
 Route::get('/cartlist',[ProductController::class,'cartlist']);
+Route::get('/removecart/{id}',[ProductController::class,'removeCart']);
