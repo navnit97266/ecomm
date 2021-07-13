@@ -49,3 +49,6 @@ Route::get('/removecart/{id}',[ProductController::class,'removeCart']);
 Route::get('/ordernow',[ProductController::class,'orderNow']);
 Route::post('/order',[ProductController::class,'order']);
 Route::get('/myorder',[ProductController::class,'myOrder']);
+Route::post('register',[UserController::class,'register'])->name('user.register');
+Route::view('signup','signup');
+//Route::get('signup',[UserController::class,'index']);
